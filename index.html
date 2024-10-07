@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- 
+            - meta tags
+        -->
+        <title >Ameth Sylla</title>
+        <meta name="title" content="Ameth Sylla - A softwre engineer portfolio ">
+        <meta name="Description" content="This is a personal portfolio made by Ameth Sylla">
+
+        <!--  
+            - favicon 
+        -->
+        <link rel="icon" href="./favicon.svg" type="image/svg+xml">    
+
+        <!--  
+            - google font link
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+            rel="stylesheet"
+        >   
+            
+        <!--  
+            - material icon link
+        -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" 
+        />
+
+        <!--  
+            - font awesome link
+        -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        
+        <!--  
+            - custom css link
+        -->
+        <link rel="stylesheet" href="./css/style.css">
+        
+    </head>
+    <body>
+        <!-- 
+            - #TOP BAR
+        -->
+        <header class="topbar">
+            <a href="#" class="logo">
+                Ameth Sylla
+                <!-- <img 
+                    src="./assets/images/Logo_dark.png" 
+                    alt="Logo" 
+                    class="dark"
+                    width="145"
+                    height="32"
+                > -->
+                <!-- <img 
+                    src="./assets/images/Logo_light.png" 
+                    alt="Logo" 
+                    class="light"
+                    width="145"
+                    height="32"
+                > -->
+            </a>
+
+            <button class="icon-btn theme-btn" data-theme-btn>
+                <span class="material-symbols-outlined dark" aria-hidden="true">dark_mode</span>
+                <span class="material-symbols-outlined light" aria-hidden="true">light_mode</span>
+
+                <div class="state-layer"></div>
+            </button>
+        </header>
+
+        <main>
+            <article>
+
+                <!--  
+                    - #HERO
+                -->
+                <section class="section hero">
+                    <div class="container">
+
+                        <figure  class="hero-banner img-holder" style="--width: 240; --height: 240;">
+                            <img src="./assets/images/profile0.png" width="240" height="240" class="img-cover" alt="Ameth Sylla">
+                        </figure>
+
+                        <div class="hero-content">
+                            <span class="label-large section-subtitle">Dévelopeur Web</span>
+
+                            <h1 class="display-small">Ameth Sylla</h1>
+
+                            <p class="body-large section-text">
+                                Dévelopeur passionné et avide de défis avec une solide formation en informatique.
+                            </p>
+
+                            <div class="btn-wrapper">
+                                <a href="mailto:mouhamedsyllla60@gmail.com" class="chip">
+                                    <span class="material-symbols-outlined" aria-hidden="true">mail</span>
+
+                                    <span class="label-large">mouhamedsyllla60@gmail.com</span>
+
+                                    <div class="state-layer"></div>
+                                </a>
+
+                                <a href="tel:+221 784278125" class="chip">
+                                    <span class="material-symbols-outlined" aria-hidden="true">call</span>
+
+                                    <span class="label-large">+221784278125</span>
+
+                                    <div class="state-layer"></div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- 
+                    - #MAIN CONTENT
+                -->
+                <div class="article">
+                    <!--  
+                        -#ABOUT CARD
+                    -->
+                    <div class="about-card">
+                        <h2 class="card-title title-medium">À Propos de moi</h2>
+
+                        <p class="body-medium card-text">Je me nomme Ameth Sylla, étudiant en troisième de licence informatique à l'université Amadou Makhtar Mbow de Diamniadio. Passionné par le développement web et l'informatique en général, je m'efforce d'acquérir des compétences solides afin de relever les défis de ce domaine exigeant. Je suis également intéressé par les opportunités de collaboration sur des projets innovants qui me permettront de mettre en pratique mes compétences et d'apprendre de nouvelles technologies.</p>
+
+                        <ul class="about-list">
+                            <li class="list-item">
+                                <span class="material-symbols-outlined">location_on</span>
+
+                                <a href=" https://maps.app.goo.gl/KdfhYZwoHFowmpEBA" class="label-medium">Rue MZ-104, Dakar, Senegal</a>
+                            </li>
+
+                            <li class="list-item">
+                                <span class="material-symbols-outlined">work</span>
+
+                                <a href="https://maps.app.goo.gl/sYCWaZCtPH1XPJp66" class="label-medium">UAM</a>
+                            </li>
+
+                            <li class="list-item">
+                                <span class="material-symbols-outlined"> 
+                                    <span  class="fab fa-github"></span>
+
+                                    <!-- <img src="./assets/images/github.svg" width="22" height="20" alt="Github" loading="lazy" class="icon"> -->
+                                </span>
+
+                                <a  href="https://github.com/MouhamedSyllla" class="label-medium">MSylla</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        
+                        <!--  
+                            -#PRIMARY TABS
+                        -->
+                        <div class="primary-tabs">
+                            <button class="tab-btn active" data-tab-btn="project">
+                                <span class="tab-text title-small">Projets</span>
+
+                                <div class="state-layer"></div>
+
+                            </button>
+
+                            <button class="tab-btn " data-tab-btn="resume">
+                                <span class="tab-text title-small">Résumé</span>
+
+                                <div class="state-layer"></div>
+
+                            </button>
+
+                            <button class="tab-btn " data-tab-btn="contact">
+                                <span class="tab-text title-small">Contact</span>
+
+                                <div class="state-layer"></div>
+
+                            </button>
+                        </div>
+
+                        <!-- 
+                            -#PROJECTS 
+                        -->
+                        <section class="section tab-content active" data-tab-content="project">
+
+                            <div class="container">
+
+                                <div class="project-list">
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="./assets/images/project-1.png" alt="Projet 1" width="334" height="180" class="img-cover">
+
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Web App</span>
+
+                                            <h3 class="title-large card-title ">PixStock - Stock Media App</h3>
+
+                                        </div>
+
+                                        <a href="#" class="state-layer"></a>
+                                    </div>
+
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="./assets/images/project-2.png" alt="Projet 2" width="334" height="180" class="img-cover">
+
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Web App</span>
+
+                                            <h3 class="title-large card-title ">Cooke.io - Recipe App</h3>
+                                            
+                                        </div>
+
+                                        <a href="#" class="state-layer"></a>
+                                    </div>
+
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="./assets/images/project-3.png" alt="Projet 3" width="334" height="180" class="img-cover">
+
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Web App</span>
+
+                                            <h3 class="title-large card-title ">GitFinder - Github User Finder</h3>
+
+                                        </div>
+
+                                        <a href="#" class="state-layer"></a>
+                                    </div>
+
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="./assets/images/project-4.png" alt="Projet 4" width="334" height="180" class="img-cover">
+
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Web App</span>
+
+                                            <h3 class="title-large card-title ">Weatherio - Live Weather App</h3>
+
+                                        </div>
+
+                                        <a href="#" class="state-layer"></a>
+                                    </div>
+
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="./assets/images/project-5.png" alt="Projet 5" width="334" height="180" class="img-cover">
+
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Web App</span>
+
+                                            <h3 class="title-large card-title ">Tvflix - Netflix Clone 2.0</h3>
+
+                                        </div>
+
+                                        <a href="#" class="state-layer"></a>
+                                    </div>
+
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="./assets/images/project-6.png" alt="Projet 6" width="334" height="180" class="img-cover">
+
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Website</span>
+
+                                            <h3 class="title-large card-title ">Travelia - Travel Website</h3>
+
+                                        </div>
+
+                                        <a href="#" class="state-layer"></a>
+                                    </div>
+
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="./assets/images/BookTrackerDemo.png" alt="Projet 6" width="334" height="180" class="img-cover">
+
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Web App</span>
+
+                                            <h3 class="title-large card-title ">BookTracker - Book Collection Website</h3>
+
+                                        </div>
+
+                                        <a target="_blank" href="https://github.com/MouhamedSyllla/BookTracker" class="state-layer"></a>
+                                    </div>
+                                    <div class="card">
+                                        <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                            <img src="./assets/images/promptopia.png" alt="Projet 6" width="334" height="180" class="img-cover">
+
+                                        </figure>
+
+                                        <div class="card-content">
+                                            <span class="label-large card-subtitle">Website</span>
+
+                                            <h3 class="title-large card-title ">Promptopia - Découvre, Crée & Partage des prompts</h3>
+
+                                        </div>
+
+                                        <a target="_blank" href="https://github.com/MouhamedSyllla/Promptopia" class="state-layer"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!--  
+                            -#RESUME
+                        -->
+                        <section class="section tab-content resume-tab " data-tab-content="resume">
+
+                            <div class="container">
+                                <h2 class="section-title title-small">Experience</h2>
+
+                                <ul class="list">
+
+                                    <li class="resume-item">
+
+                                        <div class="resume-card">
+                                            <p class="body-large">Gestionnaire de Collection de Livre</p>
+
+                                            <span class="label-medium card-subtitle">2024</span>
+
+                                            <span class="body-medium card-text">Réalisation d'une site web de gestion de collection de livre avec PHP & MVC design pattern  permettant à ses utilisateurs de garder une trace de leurs livres avec la possibilité d'ajouter des livres, de les mettre à jours et mếme de les prêter à leurs amis.</span>
+                                        </div>
+                                        
+                                    </li>
+
+                                    <li class="resume-item">
+
+                                        <div class="resume-card">
+                                            <p class="body-large">Site de Partge de Prompts pour les modèles d'IA Générative </p>
+
+                                            <span class="label-medium card-subtitle">2024</span>
+
+                                            <span class="body-medium card-text">Plateforme de découverte et de partage de prompts optimisés pour tirer le maximum des LLMs (comme GPT).</span>
+                                        </div>
+                                        
+                                    </li>
+
+                                    <li class="resume-item">
+
+                                        <div class="resume-card">
+                                            <p class="body-large">Détecteur de ravageurs et de maladie du maïs</p>
+
+                                            <span class="label-medium card-subtitle">2023</span>
+
+                                            <span class="body-medium card-text">Développement d'un système d'intellignence artificielle avec TensorFlow & FastAPI permettant aux agriculteurs de détecter en une simple prise de photo si un Insecte donné fait partie des ravageurs du maïs et aussi de verifier si une feuille de maïs donnée est atteinte d'une maladie. </span>
+                                        </div>
+                                        
+                                    </li>
+
+                                </ul>
+
+                                <h2 class="section-title title-small">Education</h2>
+
+                                <ul class="list">
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">Licence ingénierie Informatique - UAM</p>
+            
+                                            <span class="label-medium card-subtitle">2021 - maintenant</span>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large"> <a style="display: inline; font-weight: bold;" href="https://www.udemy.com/certificate/UC-f369454a-b4c8-4950-b6c5-3c95a802b94e/">Certificat UDEMY</a> en développement web  avec la formation The Complete Web Development Bootcamp </p>
+            
+                                            <span class="label-medium card-subtitle">2023 - 2024</span>
+                                        </div>
+                                    </li>
+                                        
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">Baccalauréat S2 - Lycée de Mbacké</p>
+
+                                            <span class="label-medium card-subtitle">2021</span>
+                                        </div>
+                                    
+                                    </li>
+
+                                </ul>
+
+                                <h2 class="section-title title-small">Compétences et Technologies</h2>
+
+                                <ul class="resume-bottom-list">
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/html5.svg" width="28" height="28" alt="HTML5" loading="lazy" class="icon">
+
+                                        <span class="label-medium">HTML5</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/css3.svg" width="28" height="28" alt="CSS3" loading="lazy" class="icon">
+
+                                        <span class="label-medium">CSS3</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/javascript.svg" width="28" height="28" alt="JAVASCRIPT" loading="lazy" class="icon">
+
+                                        <span class="label-medium">JavaScript</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/python.svg" width="28" height="28" alt="JAVASCRIPT" loading="lazy" class="icon">
+
+                                        <span class="label-medium">Python</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/react.js.svg" width="28" height="28" alt="React.js" loading="lazy" class="icon">
+
+                                        <span class="label-medium">React.js</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/node.js.svg" width="28" height="28" alt="Node.js" loading="lazy" class="icon">
+
+                                        <span class="label-medium">Node.js</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/github.svg" width="28" height="28" alt="Github" loading="lazy" class="icon">
+
+                                        <span class="label-medium">Github</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/mongoDB.svg" width="28" height="28" alt="MongoDB" loading="lazy" class="icon">
+
+                                        <span class="label-medium">MongoDB</span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/VS_code.svg" width="28" height="28" alt="VS Code" loading="lazy" class="icon">
+
+                                        <span class="label-medium">VS Code</span>
+                                    </li>
+                                    
+                                </ul>
+                                
+
+                            </div>
+
+                        </section>
+
+                        <!--  
+                            -#CONTACT
+                        -->
+                        <section class="section tab-content contact-tab" data-tab-content="contact">
+
+                            <div class="container">
+
+                                <div class="contact-info">
+
+                                    <h4 class=" section-title title-small">Info Contact</h4>
+
+                                    <ul class="contact-info-list">
+
+                                        <li class="contact-info-item">
+
+                                            <div class="icon-box">
+                                                <span class="material-symbols-outlined" aria-hidden="true">mail</span>
+                                            </div>
+
+                                            <div class="info-content">
+
+                                                <p class="label-small info-title">Mail</p>
+
+                                                <a href="mailto:mouhamedsyllla60@gmail.com" class="label-small info-text">mouhamedsyllla60@gmail.com</a>
+
+                                                <a href="mailto:sylla.ameth@uam.edu.sn" class="label-small info-text">sylla.ameth@uam.edu.sn</a>
+
+                                            </div>
+
+                                        </li>
+
+                                        <li class="contact-info-item">
+
+                                            <div class="icon-box">
+                                                <span class="material-symbols-outlined" aria-hidden="true">call</span>
+                                            </div>
+
+                                            <div class="info-content">
+
+                                                <p class="label-small info-title">Contactez-moi</p>
+
+                                                <a href="tel:+22178427825" class="label-small info-text">+22178427825</a>
+
+                                            </div>
+
+                                        </li>
+
+                                    </ul>
+
+                                    <h4 class="title-small title-small">Réseaux Sociaux</h4>
+
+                                    <div class="social-list">
+
+                                        <a href="" class="social-item">
+                                            <svg width="24px" height="24px"  style="fill: var(--on-surface-variant)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+                                        </a>
+
+                                        <a href="" class="social-item">
+                                            <svg width="24px" height="24px"  style="fill: var(--on-surface-variant)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                                             </svg>
+                                        </a>
+
+                                        <a href="" class="social-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                                <path d="M14.095479,10.316482L22.286354,1h-1.940718l-7.115352,8.087682L7.551414,1H1l8.589488,12.231093L1,23h1.940717  l7.509372-8.542861L16.448587,23H23L14.095479,10.316482z M11.436522,13.338465l-0.871624-1.218704l-6.924311-9.68815h2.981339  l5.58978,7.82155l0.867949,1.218704l7.26506,10.166271h-2.981339L11.436522,13.338465z" style="fill: var(--on-surface-variant)"/>
+                                            </svg>
+                                        </a>
+
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="contact-form">
+
+                                    <h3 class="title-large">Travaillons ensemble</h3>
+
+                                    <form  action="" method="post" class="input-wrapper">
+
+                                        <input type="text" name="name" placeholder="Nom*" required id="" class="input-field">
+
+                                        <input type="email" name="email" placeholder="Email*" required id="" class="input-field">
+
+                                        <input type="text" name="subject" placeholder="Sujet" id="" class="input-field">
+
+                                        <textarea name="message" placeholder="Message*" required class="textarea"></textarea>
+
+                                        <button class="btn" type="submit">
+                                            <span class="label-large">Envoyer</span>
+
+                                            <div class="state-layer"></div>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+
+                </div>
+
+            </article>
+        </main>
+
+        <!--  
+            -#FOOTER
+        -->
+        <footer class="footer">
+            <div class="container">
+                <p class="body-medium">Copyright 2024. All right reserved by <a style="display: inline;" href="https://github.com/MouhamedSyllla" class="label-medium">MSylla</a></p>
+            </div>
+        </footer>
+
+
+
+
+        <!-- 
+            - custom js link
+        -->
+        <script src="./js/script.js"></script>        
+    </body>
+</html>
