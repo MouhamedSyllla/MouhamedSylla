@@ -11,7 +11,9 @@
 
 const /** {NodeElement} */ $themeBtn =
     document.querySelector("[data-theme-btn]");
+
 const /** {NodeElement} */ $HTML = document.documentElement;
+
 let /** {boolean | string} */ isDark = window.matchMedia(
     "(prefers-color-scheme: dark)"
   ).matches;
@@ -35,7 +37,7 @@ $themeBtn.addEventListener("click", changeTheme);
  */
 
 /* 
-  Switching the content of the same area on three different buttons click by making that content active or not.
+  Switching the content of the same area on three different button clicks by making that content active or not.
   We first made one content active  by adding a class ".active" in it(so it is the last activate content).
   Then we listen to a click event on all three buttons. 
   If it happens we deactivate the first one and activate the clicked one by addingin it a ".active" class(button and content are linked by their data attribute values so if we know the cliced button we can know the corresponding content). 
@@ -65,3 +67,14 @@ $tabBtn.forEach((item) => {
     lastActiveTabBtn = this;
   });
 });
+
+
+/* Alert for comming soon projects */
+
+const /* NodeElement */ $commingSoonProjects = document.querySelectorAll(".comming-soon");
+
+$commingSoonProjects.forEach(project => {
+  project.addEventListener("click", () => {
+    window.alert("Ce projet sera bientôt disponible sur mon Github.");
+  })
+})
