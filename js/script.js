@@ -75,6 +75,6 @@ const /* NodeElement */ $commingSoonProjects = document.querySelectorAll(".commi
 
 $commingSoonProjects.forEach(project => {
   project.addEventListener("click", () => {
-    window.alert("Ce projet sera bientôt disponible sur mon Github.");
+    window.alert("Ce projet sera bientôt disponible sur mon Github Merci.");
   })
 })
